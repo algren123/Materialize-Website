@@ -10,39 +10,43 @@
 <body>
     <!--navbar and "jumbotron"-->
     <header>
-        <div class="navbar-fixed">
-            <nav class="nav-wrapper">
-                <div class="container">
-                    <a href="#" class="brand-logo center">Muky</a>
-                    <a href="#" class="sidenav-trigger" data-target="mobile-menu">
-                        <i class="material-icons">menu</i>
-                    </a>
-                    <ul class="right hide-on-med-and-down">
-                        <li><a href="#photos">Photos</a></li>
-                        <li><a href="#services">Services</a></li>
-                        <li><a href="#contact">Contact Us</a></li>
-                    </ul>
-    
-                    <ul class="left hide-on-med-and-down">
-                        <li><a href="https://github.com/algren123" class="tooltipped btn-floating btn-small pink" data-tooltip='GitHub'>
-                            <i class="fab fa-github"></i>
-                        </a></li>
-                        <li><a href="https://www.linkedin.com/in/algren-pauna/" class="tooltipped btn-floating btn-small pink" data-tooltip='LinkedIn'>
-                            <i class="fab fa-linkedin"></i>
-                        </a></li>
-                        <li><a href="https://www.artstation.com/algrenpauna" class="tooltipped btn-floating btn-small pink" data-tooltip='Artstation'>
-                            <i class="fab fa-artstation"></i>
-                        </a></li>
-                    </ul>
-    
-                    <ul class="sidenav grey lighten-2" id="mobile-menu">
-                        <li><a href="#photos">Photos</a></li>
-                        <li><a href="#services">Services</a></li>
-                        <li><a href="#contact">Contact Us</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
+
+        <nav class="nav-wrapper">
+            <div class="container">
+                <a href="#" class="brand-logo center">
+                    Logo
+                </a>
+
+
+                <a href="#" class="sidenav-trigger" data-target="mobile-menu">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#photos">Photos</a></li>
+                    <li><a href="#offer">Services</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+
+                <ul class="left hide-on-med-and-down">
+                    <li><a href="https://github.com/algren123" class="tooltipped btn-floating btn-small pink" data-tooltip='GitHub'>
+                        <i class="fab fa-github"></i>
+                    </a></li>
+                    <li><a href="https://www.linkedin.com/in/algren-pauna/" class="tooltipped btn-floating btn-small pink" data-tooltip='LinkedIn'>
+                        <i class="fab fa-linkedin"></i>
+                    </a></li>
+                    <li><a href="https://www.artstation.com/algrenpauna" class="tooltipped btn-floating btn-small pink" data-tooltip='Artstation'>
+                        <i class="fab fa-artstation"></i>
+                    </a></li>
+                </ul>
+
+                <ul class="sidenav" id="mobile-menu">
+                    <li><a href="#photos">Photos</a></li>
+                    <li><a href="#offer">Services</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+     
 
         <div class="container">
             <div class="jumbotron-title col s12 l4">
@@ -233,7 +237,7 @@
                 disableWeekends: true
             });
             $('.tooltipped').tooltip();
-            $('.scrollspy').scrollspy();
+            $('.scrollspy').scrollSpy();
         })
     </script>
 </body>

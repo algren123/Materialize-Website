@@ -63,4 +63,8 @@ header {
 .tabs .tab a:focus, .tabs .tab a:focus.active {
   background: transparent;
 }
+
+.sidenav-overlay {
+  background-color: transparent;
+}
 /*# sourceMappingURL=style.css.map */
