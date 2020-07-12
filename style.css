@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 header {
   background-image: url(https://images.pexels.com/photos/2471235/pexels-photo-2471235.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
   background-size: cover;
@@ -66,5 +71,10 @@ header {
 
 .sidenav-overlay {
   background-color: transparent;
+}
+
+#map {
+  height: 500px;
+  width: 100%;
 }
 /*# sourceMappingURL=style.css.map */
