@@ -65,7 +65,8 @@ header {
   background-color: #9c27b0;
 }
 
-.tabs .tab a:focus, .tabs .tab a:focus.active {
+.tabs .tab a:focus,
+.tabs .tab a:focus.active {
   background: transparent;
 }
 
